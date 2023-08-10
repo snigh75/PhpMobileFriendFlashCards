@@ -10,6 +10,6 @@ class Flashcardbase extends BaseController
     {
         $model = model(Facts::class);
 		$data['getstuff'] = $model->getTest();
-		return view('test_page',$data);
+		return view('header') . view('study_notes');
     }
 }

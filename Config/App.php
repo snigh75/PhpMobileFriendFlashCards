@@ -17,7 +17,7 @@ class App extends BaseConfig
      *
      *    http://example.common/
      */
-    public string $baseURL = 'http://localhost:8022/flashcards/public/';
+    public string $baseURL = 'http://192.168.50.146:8022/flashcards/public/';
 
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
